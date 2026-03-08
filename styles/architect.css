@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+body {
+    margin: 0;
+}
 
 .work-sans-font {
   font-family: "Work Sans", sans-serif;
@@ -24,8 +27,25 @@
 .text-light-gray {
     color: #727272;
 }
+/* orange */
+.light-orange {
+    color: #FF900E;
+}
 .bg-light {
     background-color: rgba(255, 144, 14, 0.1);
+}
+/* font weight */
+.bold {
+    font-weight: 700;
+}
+.semi-bold {
+    font-weight: 600;
+}
+.medium {
+    font-weight: 500;
+}
+.normal {
+    font-weight: 400;
 }
 .btn-primary {
     background-color: #FF900E;
@@ -78,6 +98,30 @@
 }
 .banner-image {
     width: 100%;
+    margin-bottom: 45px;
+}
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* team and feature */
+main > section {
+    margin-top: 80px;
+}
+.team{
+    align-items: center;
+    justify-content: space-around;
+}
+.team-image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.our-features {
+    max-width: 537px;
+}
+.feature-title {
+    font-size: 2.8rem;
 }
 /* responsive media query */
 @media screen and (max-width: 576px) {
