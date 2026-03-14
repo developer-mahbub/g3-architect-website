@@ -231,7 +231,8 @@ footer {
     margin-bottom: 10px;
 }
 footer .footer-container {
-    line-height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 20px;
     text-align: center;
 }
