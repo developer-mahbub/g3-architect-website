@@ -12,6 +12,10 @@ body {
 }
 
 /* shared styles */
+header, main, footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .display-flex {
     display: flex;
 }
