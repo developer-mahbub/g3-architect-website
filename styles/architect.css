@@ -257,6 +257,7 @@ footer .footer-container {
     }
     #experience-badge {
         margin-top: 20px;
+        margin-left: 0;
     }
     .facts-container {
         justify-items: center;
